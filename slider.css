@@ -26,6 +26,11 @@ body {
   gap: 50px;
 }
 
+.slider{
+  display: flex;
+  transition: all 1s ease;
+}
+
 .frame {
   width: 800px;
   height: 500px;
@@ -50,6 +55,7 @@ body {
   height: 15px;
   border-radius: 50%;
   border: 1px solid #fff;
+  cursor: pointer;
 }
 
 .container > .top > span {
